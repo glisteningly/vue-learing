@@ -4,6 +4,7 @@
     <ul>
       <li><a href="https://forum.vuejs.org" target="_blank">Forum</a></li>
       <li><router-link to="/test">Test</router-link></li>
+      <li><router-link to="/watcher">Watcher</router-link></li>
       <br>
     </ul>
   </div>

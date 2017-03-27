@@ -1,6 +1,6 @@
 <template>
   <div class="test">
-    <router-link to="/index">← Back</router-link>
+    <router-link to="/">← Back</router-link>
     <h1>{{ msg | capitalize }}</h1>
     <span :title="time">hover here!</span>
   </div>
