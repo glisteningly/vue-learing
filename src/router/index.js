@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Hello from '@/components/Hello'
 import Test from '@/components/Test'
 import Watcher from '@/components/Watcher'
+import Question from '@/components/Question'
 
 Vue.use(Router)
 
@@ -22,6 +23,11 @@ export default new Router({
       path: '/watcher',
       name: 'Watcher',
       component: Watcher
+    },
+    {
+      path: '/question',
+      name: 'Question',
+      component: Question
     }
   ]
 })
